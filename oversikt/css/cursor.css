@@ -1,0 +1,66 @@
+.cursor {
+    top : 0;
+    left : 0;
+    width: 6px;
+    height: 6px;
+    position: fixed;
+    display: block;
+    pointer-events: none;
+    transition: opacity .25s ease-in-out;
+    mix-blend-mode: difference;
+    opacity: 0;
+    z-index: 1000;
+}
+.cursor.moving {
+    opacity: 1;
+}
+.cursor::before {
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+}
+.cursor.expand::before {
+    opacity: 0;
+}
+.node {
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    display: block;
+    position: fixed;
+    pointer-events: none;
+    transition: opacity .25s ease-in-out;
+    mix-blend-mode: difference;
+    opacity: 0;
+    z-index: 1000;
+}
+.node.moving {
+    opacity: 1;
+}
+.node::before {
+    content: ' ';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    transform: scale(1.5);
+    opacity: 1;
+    transition: opacity .25s ease-in-out, transform .25s ease-in-out, border .25s ease-in-out, background-color .25s ease-in-out;
+}
+.node.expand::before {
+    transform: scale(3);
+    background-color: #ffffff;
+    opacity: 1;
+}
