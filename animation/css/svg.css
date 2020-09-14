@@ -1,0 +1,120 @@
+/* Diamond */
+.clsd-1 {
+    fill: #2f0a15;
+}
+.clsd-2 {
+    fill: #300a18;
+}
+.clsd-3 {
+    fill: #d8d7d7;
+}
+.clsd-4 {
+    fill: #1b060d;
+}
+.clsd-5 {
+    fill: #7f1c3f;
+}
+.clsd-6 {
+    fill: #d7d6d6;
+}
+.clsd-7 {
+    fill: #ae2651;
+}
+.clsd-8 {
+    fill: #70182f;
+}
+.clsd-9 {
+    fill: #c33665;
+}
+.clsd-10 {
+    fill: #ca3f6d;
+}
+.clsd-11 {
+    fill: #c63963;
+}
+.clsd-12 {
+    fill: #d18b9d;
+}
+.clsd-13 {
+    fill: #d5b2bc;
+}
+.clsd-14 {
+    fill: #691731;
+}
+.clsd-15 {
+    fill: #d07790;
+}
+/* Gold */
+.clsg-1 {
+    fill: #383800;
+}
+.clsg-2 {
+    fill: #2a2a00;
+}
+.clsg-3 {
+    fill: #494900;
+}
+.clsg-4 {
+    fill: #80440b;
+}
+.clsg-5 {
+    fill: #373700;
+}
+.clsg-6 {
+    fill: #99720d;
+}
+.clsg-7 {
+    fill: #b2b262;
+}
+.clsg-8 {
+    fill: #b2b2b2;
+}
+.clsg-9 {
+    fill: #b2b208;
+}
+.clsg-10 {
+    fill: #9b9b00;
+}
+.clsg-11 {
+    fill: #99530d;
+}
+.clsg-12 {
+    fill: #5e5e00;
+}
+.clsg-13 {
+    fill: #7a7a00;
+}
+/* Hand */
+.cls-1, .cls-7, .cls-9 {
+    fill:none;
+}
+.cls-2 {
+    fill:#6660e2;
+}
+.cls-3 {
+    clip-path:url(#clip-path);
+}
+.cls-4 {
+    fill:#7575ea;
+}
+.cls-5 {
+    fill:#fff;
+}
+.cls-6 {
+    clip-path:url(#clip-path-2);
+}
+.cls-7, .cls-9 {
+    stroke: #fff;stroke-miterlimit: 10;stroke-width: 8px;
+}
+.cls-7 {
+    stroke-dasharray: 35.28 35.28;
+}
+.cls-8 {
+    clip-path:url(#clip-path-3);
+}
+.cls-9{
+    stroke-dasharray: 35.87 35.87;
+}
+.cls-10{
+    clip-path:url(#clip-path-4);
+}
