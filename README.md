@@ -11,3 +11,4 @@ IMPORTANT: files may be very unfinished, and not up to date all the time.
 Current projects
 - oversikt (Overview)
 - kart (Map)
+- Animation
