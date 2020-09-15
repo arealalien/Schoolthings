@@ -12,3 +12,4 @@ Current projects
 - oversikt (Overview)
 - kart (Map)
 - Animation
+- Exif
