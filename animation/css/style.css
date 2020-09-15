@@ -164,8 +164,10 @@ a {
 }
 .diamond svg {
     top: 5%;
-    width: 13%;
+    width: 10%;
     position: absolute;
+    filter: hue-rotate(220deg);
+    animation: fly 6s ease-in-out infinite;
 }
 .gold {
     top: 0;
@@ -178,6 +180,9 @@ a {
     top: 5%;
     width: 13%;
     position: absolute;
+}
+.gold-inner {
+    display: none;
 }
 .hand {
     top: 0;
@@ -233,9 +238,9 @@ a {
     100% { stroke-dashoffset: 912; }
 }
 @keyframes fly {
-    0% { top: 10%; width: 19%; }
-    50% { top: 3%; width: 17%; }
-    100% { top: 10%; width: 19%; }
+    0% { top: 10%; width: 10%; }
+    50% { top: 3%; width: 8%; }
+    100% { top: 10%; width: 10%; }
 }
 /* -
 -*-~*~-*-*-~*~-*-*-~*~-* |
