@@ -124,8 +124,18 @@ a {
     position: relative;
     overflow: hidden;
 }
-.header-title {
+.header-title-wrapper {
     z-index: 10;
+}
+.header-title {
+    margin: 0;
+}
+.header-under-title {
+    margin: 0;
+    font-weight: 300;
+    color: var(--white);
+    font-size: calc(var(--paragraph) + .8rem);
+    letter-spacing: .1em;
 }
 .header-overlay {
     width: 100%;
@@ -138,6 +148,10 @@ a {
     min-width: 100%;
     min-height: 100%;
     position: absolute;
+}
+/* Main */
+#main {
+    min-height: auto;
 }
 /* Selection */
 ::selection {
