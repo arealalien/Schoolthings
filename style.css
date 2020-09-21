@@ -118,33 +118,29 @@ a {
     align-items: flex-start;
 }
 /* page */
+/* Header */
 #header {
     width: 100%;
-    min-height: 100vh;
+    margin: 4.5em 0 0 0;
+    height: calc(100vh - 4.5em);
     position: relative;
     overflow: hidden;
 }
-.header-title-wrapper {
-    z-index: 10;
-}
 .header-title {
     margin: 0;
-}
-.header-under-title {
-    margin: 0;
-    font-weight: 300;
-    color: var(--white);
-    font-size: calc(var(--paragraph) + .8rem);
-    letter-spacing: .1em;
+    font-family: var(--font-title);
+    font-size: var(--heading-large);
+    position: absolute;
+    z-index: 10;
 }
 .header-overlay {
     width: 100%;
     height: 100%;
     position: absolute;
     background-color: rgba(0, 0, 0, .35);
-    z-index: 5;
+    z-index: 2;
 }
-.header-image {
+.header-video {
     min-width: 100%;
     min-height: 100%;
     position: absolute;
