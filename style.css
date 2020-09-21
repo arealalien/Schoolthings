@@ -126,12 +126,22 @@ a {
     position: relative;
     overflow: hidden;
 }
+.header-title-wrapper {
+    position: absolute;
+    z-index: 10;
+}
 .header-title {
     margin: 0;
     font-family: var(--font-title);
     font-size: var(--heading-large);
-    position: absolute;
     z-index: 10;
+}
+.header-under-title {
+    margin: 0;
+    font-weight: 300;
+    color: var(--white);
+    font-size: calc(var(--paragraph) + .8rem);
+    letter-spacing: .1em;
 }
 .header-overlay {
     width: 100%;
