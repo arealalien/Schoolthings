@@ -1,0 +1,61 @@
+/* -
+-*-~*~-*-*-~*~-*-*-~*~*-*-~*~-*-*-~*~-*-*-~*~*-*-~*~-* |
+　　　　　●▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑ 　❤️๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+　. 　　　　　　　　　　　　　　　　　　o 　　　　　+
+　　()　　　　　　+　　 Made with ❤ by ~
+　　　　　o 　　　　　Areal Alien ❥ 雷克斯　　　　.
+　　.　　　　　　　　　　　.
+　　　　　　　　　　　　 ●▬▬▬๑ 💙 ๑▬▬▬●　　　　　　()
+　　+　　　　　　. 　　　　　　　　　　　　　　o
+　o　　　　　　　　　　　 ▄▀▄　　　▄▀▄　　　　　　　+
+　　　　　　+　　　　　 ▄█░░▀▀▀▀▀░░█▄　　.
+　　　.　　　　　 ▄▄ 　█░░░░░░░░░░░█　▄▄
+　　　　　　.　 █▄▄█　█░░▀░░┬░░▀░░█　█▄▄█　　　o
+　　　　　●▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑ 　❤️๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+-*-~*~-*-*-~*~-*-*-~*~*-*-~*~-*-*-~*~-*-*-~*~*-*-~*~-* |
+- */
+/* Button 1 */
+.button, .btn-secondary {
+    margin: 0;
+    width: 100%;
+    position: relative;
+    padding: 1.2em 2em;
+    letter-spacing: .1em;
+    text-align: center;
+    color: var(--white);
+    font-size: var(--button-small);
+    background: var(--gradient-button);
+    background-size: 1100%;
+    border-radius: 50px;
+    border: none;
+    transform: scaleX(1);
+    transition: transform .3s cubic-bezier(.175,.885,.32,1.275), filter .3s cubic-bezier(.175,.885,.32,1.275), bottom .3s cubic-bezier(.175,.885,.32,1.275), background-position 3s cubic-bezier(.455,.03,.515,.955), -webkit-transform .3s cubic-bezier(.175,.885,.32,1.275), -webkit-filter .3s cubic-bezier(.175,.885,.32,1.275);
+}
+.button {
+    transition: transform .3s cubic-bezier(.175,.885,.32,1.275), bottom .3s cubic-bezier(.175,.885,.32,1.275), background-position 3s cubic-bezier(.455,.03,.515,.955), -webkit-transform .3s cubic-bezier(.175,.885,.32,1.275);
+}
+.button, .button .btn-secondary {
+    background-position: 0 50%;
+    bottom: 0;
+}
+.button .btn-secondary {
+    left: 0;
+    width: 100%;
+    position: absolute;
+    filter: blur(16px);
+    opacity: .9;
+    z-index: -1;
+    transform: scale3d(.9, .9, 1);
+    transition: transform .3s cubic-bezier(.175,.885,.32,1.275), filter .3s cubic-bezier(.175,.885,.32,1.275), bottom .3s cubic-bezier(.175,.885,.32,1.275), background-position 3s cubic-bezier(.455,.03,.515,.955), -webkit-transform .3s cubic-bezier(.175,.885,.32,1.275), -webkit-filter .3s cubic-bezier(.175,.885,.32,1.275);
+}
+.button:focus, .button:hover {
+    transform: scale3d(1.1, 1.1, 1);
+    background-position: 100% 50%;
+    outline: none;
+    bottom: 2px;
+}
+.button:focus .btn-secondary, .button:hover .btn-secondary {
+    background-position: 100% 50%;
+    filter: blur(25px);
+    bottom: -5px;
+}
