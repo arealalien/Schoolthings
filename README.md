@@ -10,6 +10,7 @@ IMPORTANT: files may be very unfinished, and not up to date all the time.
 
 Current projects
 - Animation
+- Autumn
 - Exif
 - kart (Map)
 - oversikt (Overview)
